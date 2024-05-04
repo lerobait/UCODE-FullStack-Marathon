@@ -1,0 +1,68 @@
+div {
+  position: relative;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: right;
+  margin: 0;
+}
+
+.cards-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.capitan-america-card,
+.iron-man-card,
+.black-widow-card,
+.spider-man-card {
+  position: relative;
+  padding: 10px;
+  width: 270px;
+  height: 140px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+}
+
+.capitan-america-card {
+  background: linear-gradient(#4568DC, #B06AB3);
+}
+
+.iron-man-card {
+  background: linear-gradient(#e52d27, #b31217);
+}
+
+.black-widow-card {
+  background: linear-gradient(90deg, #000, #61045F);
+}
+
+.spider-man-card {
+  background: linear-gradient(#e52d27, #000);
+}
+
+.capitan-america-image,
+.iron-man-image,
+.black-widow-image,
+.spider-man-image {
+  position: absolute;
+  height: 182px;
+  margin-top: -32px;
+}
+
+.spider-man-image {
+  margin-top: -10px;
+}
+
+.alias {
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+}
+
+.name {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 9px;
+}

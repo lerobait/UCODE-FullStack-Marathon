@@ -1,0 +1,29 @@
+div {
+  display: grid;
+  grid-template-columns: 1fr 50px;
+}
+
+input {
+  color: green;
+  border: 2px solid blue;
+  border-radius: 5px;
+  height: 2em;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+input:hover {
+  color: red;
+}
+
+button {
+  color: green;
+  border-radius: 5px;
+  border-width: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+button:hover {
+  color: red;
+}

@@ -1,0 +1,29 @@
+.cards-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.weather-card {
+  font-family: Lato;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.weather-card:hover {
+  transition: box-shadow 300ms ease;
+  box-shadow: 0 0 10px black;
+}
+
+.date {
+  background-color: #4095b5;
+  font-weight: 700;
+  font-size: 1.5em;
+  color: white;
+  margin: 0;
+}
+
+.temperature {
+  font-weight: 400;
+  font-size: 2em;
+  margin: 0;
+}
