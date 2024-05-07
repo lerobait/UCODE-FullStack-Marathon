@@ -1,0 +1,29 @@
+body {
+  text-align: center;
+  margin: 0;
+}
+
+.circle-box {
+  width: 100%;
+  margin: 200px auto;
+}
+
+.circle-of-life {
+  display: block;
+  width: 400px;
+  height: 400px;
+  background-color: green;
+  border-radius: 100%;
+  transition: background-color ease-out 2.5s;
+  animation: 5s ease-in infinite alternate cycle-move;
+}
+
+.circle-of-life:hover {
+  background-color: red;
+  transition: background-color linear 2.5s;
+}
+
+@keyframes cycle-move {
+  from { margin-left: 0; }
+  to { margin-left: calc(100% - 400px); }
+}

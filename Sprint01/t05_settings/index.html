@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Settings</title>
+  <meta name="description" content="t05. Settings">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Settings</h1>
+  <div class="main-box">
+    <form>
+      <fieldset>
+        <div class="left-settings">
+          <div>
+            <p>
+              <label for="typeface">Typeface</label>
+            </p>
+
+            <select id="typeface" name="typeface">
+              <option value="acunim-pro">Acunim Pro</option>
+              <option value="comic-sans">Comic Sans</option>
+              <option value="Times-new-roman">Times New Roman</option>
+            </select>
+          </div>
+          <div class="weight-box">
+            <p>Weight</p>
+
+            <input type="checkbox" id="weight1" name="weight1" value="regular">
+            <label for="weight1">Regular</label>
+
+            <input type="checkbox" id="weight2" name="weight2" value="bold">
+            <label for="weight2">Bold</label>
+          </div>
+          <div class="slider-box">
+            <p>
+              <label for="size">Size</label>
+            </p>
+
+            <input type="range" id="size" name="size" 
+                    min="0" max="10" step="1" value="4">
+            <div class="small-to-big">
+              <span class="small-letter">A</span>
+              <span class="big-letter">A</span>
+            </div>
+          </div>
+        </div>
+        <div class="right-settings">
+          <div class="dark-ui-box">
+            <label for="dark-ui">Dark UI</label>
+            <input type="checkbox" id="dark-ui" name="dark-ui">
+          </div>
+          <div class="color-box">
+            <p>Color</p>
+
+            <input class="blue" type="checkbox" id="blue" name="blue">
+            <label for="blue"></label>
+            <input class="green" type="checkbox" id="green" name="green" checked>
+            <label for="green"></label>
+            <input class="pink" type="checkbox" id="pink" name="pink">
+            <label for="pink"></label>
+            <input class="yellow" type="checkbox" id="yellow" name="yellow">
+            <label for="yellow"></label>
+            <input class="orange" type="checkbox" id="orange" name="orange" checked>
+            <label for="orange"></label>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+    <div class="menu">
+      <img alt="artistic-brush" src="assets/images/artistic-brush.png">
+      <img alt="user-icon" src="assets/images/user-icon.png">
+      <img alt="sms-speech-bubble" src="assets/images/sms-speech-bubble.png">
+      <img alt="computer-screen" src="assets/images/computer-screen.png">
+    </div>
+  </div>
+</body>
+
+</html>

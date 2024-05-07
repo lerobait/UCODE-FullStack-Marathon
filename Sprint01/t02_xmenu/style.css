@@ -1,0 +1,78 @@
+p {
+  font-family: Verdana, Tahoma, sans-serif
+}
+
+a {
+  color: white;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: black;
+  margin: 10px 10px 10px 10px;
+}
+
+.header-text {
+  color: #652d90;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 5px 0px 5px 0px;
+}
+
+.menu-box {
+  display: flex;
+  justify-content: center;
+}
+
+.team,
+.enemies {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.team-lvl-1,
+.enemies-lvl-1,
+.enemies-lvl-2 {
+  display: none;
+}
+
+.team:hover .team-lvl-1 {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.enemies:hover .enemies-lvl-1,
+.enemies:hover .enemies-lvl-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.the-strongest,
+.other {
+  display: none;
+  position: absolute;
+  cursor: pointer;
+  margin-left: 179px;
+}
+
+.enemies-lvl-1:hover .the-strongest,
+.enemies-lvl-2:hover .other {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.element {
+  width: 200;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  transition: background-color 0.5s ease;
+}
+
+.element:hover {
+  background-color: #652d90;
+}

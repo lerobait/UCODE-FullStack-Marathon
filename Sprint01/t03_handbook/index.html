@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Handbook</title>
+  <meta name="description" content="t03. Handbook">
+  <link rel="stylesheet" href="style.css">
+</head>
+  
+<body>
+  <h1>Handbook</h1>
+  <h2>Contents</h2>
+  <div class="contents">
+    <ol>
+      <li>
+        <a href="#html">HTML</a>
+        <ul>
+          <li><a href="#h1">h1</a></li>
+          <li><a href="#hr">br</a></li>
+          <li><a href="#input">input</a></li>
+          <li><a href="#button">button</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#css">CSS</a>
+        <ul>
+          <li><a href="#background">background</a></li>
+          <li><a href="#opacity">opacity</a></li>
+          <li><a href="#border">border</a></li>
+          <li><a href="#font-size">font-size</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#protocols">PROTOCOLS</a>
+        <ul>
+          <li><a href="#http-methods">HTTP methods</a></li>
+          <li><a href="#http-status-code">HTTP status code</a></li>
+          <li><a href="#dns-list-by-types">DNS list by types</a></li>
+          <li><a href="#googles-ip">Identifying google's IP</a></li>
+        </ul>
+      </li>
+    </ol>
+  </div>
+  <div>
+    <h2 id="html">HTML</h2>
+    <div>
+      <div class="topics">
+        <fieldset>
+          <h3 id="h1">h1</h3>
+          <p>The h1 to h6 tags are used to define HTML headings</p>
+          <br>
+          <br>
+          <p><code>&lt;h1&gt;Title&lt;/h1&gt;</code></p>
+          <div class="example">
+            <h1 class="h1-example">Title</h1>
+          </div>
+        </fieldset>
+        <fieldset>
+          <h3 id="hr">hr</h3>
+          <p>draws a horizontal line</p>
+          <br>
+          <br>
+          <p><code>&lt;hr&gt;</code></p>
+          <div class="example">
+            <hr>
+            <p>
+              Lorem ipsum dolor sit ammet,
+              consectetuer adipscing elit, sed diem
+              nonummy nibh
+            </p>
+            <hr>
+          </div>
+        </fieldset>
+        <fieldset>
+          <h3 id="input">input</h3>
+          <p>
+            Designed to create text fields, various
+            buttons, radio buttons and checkboxes
+          </p>
+          <br>
+          <br>
+          <p><code>&lt;input attributes&gt;</code></p>
+          <div class="example">
+            <form>
+              <p>
+                <span class="input-example">Your name</span><br>
+                <input type="text" name="your_name">
+              </p>
+              <p>
+                <span class="input-example">Question</span><br>
+                <input type="radio" name="question">
+                <span>answer</span><br>
+
+                <input type="radio" name="question">
+                <span>answer</span><br>
+                
+                <input type="radio" name="question">
+                <span>answer</span><br>
+              </p>
+            </form>
+          </div>
+        </fieldset>
+        <fieldset>
+          <h3 id="button">button</h3>
+          <p>Clickable button.</p>
+          <br>
+          <br>
+          <p><code>&lt;button&gt;Title&lt;/button&gt;</code></p>
+          <div class="example">
+            <button>Button</button>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+    <h2 id="css">CSS</h2>
+    <div>
+      <div class="topics">
+        <fieldset>
+          <h3 id="background">background</h3>
+          <p>specifies the background of an element</p>
+          <br>
+          <br>
+          <p><code>background: [];</code></p>
+          <div class="example">
+            <div class="background-example">
+              <p class="background-text-example">Text</p>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset>
+          <h3 id="opacity">opacity</h3>
+          <p>
+            specifies the opacity/transparency of an
+            element
+          </p>
+          <br>
+          <br>
+          <p><code>opacity: 0.8;</code></p>
+          <div class="example">
+            <div class="opacity-example-1"></div>
+            <div class="opacity-example-2"></div>
+            <div class="opacity-example-3"></div>
+            <div class="opacity-example-4"></div>
+          </div>
+        </fieldset>
+        <fieldset>
+          <h3 id="border">border</h3>
+          <p>specifies the style of the outline</p>
+          <br>
+          <br>
+          <p><code>border-bottom:2px solid #666;</code></p>
+          <div class="example">
+            <div class="border-example"></div>
+          </div>
+        </fieldset>
+        <fieldset>
+          <h3 id="font-size">font-size</h3>
+          <p>
+            specifies the font size of item.
+            %,px,rem,inherit
+          </p>
+          <br>
+          <br>
+          <p><code>font-size:24px;</code></p>
+          <div class="example">
+            <p class="font-size-exaple">
+              Lorem ipsum dolor sit
+              amet, consectetur adipisicing elit. Ratione,
+              esse.
+            </p>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+    <h2 id="protocols">PROTOCOLS</h2>
+    <div>
+      <div class="topics">
+        <fieldset>
+          <h3 id="http-methods">HTTP methods</h3>
+          <p>
+            GET - use this type of requests to retrieve resource 
+            representation/information only - and not to modify it in any 
+            way
+          </p>
+          <p>
+            POST - used to create a new resource into the collection of 
+            resources
+          </p>
+          <p>
+            PUT - use it primarily to update existing resource (if the resource 
+            does not exist then API may decide to create a new resource or 
+            not)
+          </p>
+          <p>
+            DELETE - used to delete resources (identified by the Request-URI)
+          </p>
+          <p>
+            PATCH - HTTP PATCH requests are to make partial update on a 
+            resource
+          </p>
+        </fieldset>
+        <fieldset>
+          <h3 id="http-status-code">HTTP status code</h3>
+          <p>1xx: Informational<br>example: 100 Continue</p>
+          <p>2xx: Success<br>example: 201 Created</p>
+          <p>3xx: Redirection<br>example: 301 Moved Permanently</p>
+          <p>4xx: Client Error<br>example: 404 Not Found</p>
+          <p>5xx: Server Error<br>example: 500 Internal Server Error</p>
+        </fieldset>
+        <fieldset>
+          <h3 id="dns-list-by-types">DNS list by types</h3>
+          <p>
+            A - (address record) - specifies IP address (IPv4) for given host. 
+            A records are used for conversion of domain names to 
+            corresponding IP addresses
+          </p>
+          <p>
+            AAAA (IPv6 address record) - specifies IPv6 address for given 
+            host. So it works the same way as the A record and the 
+            difference is the type of IP address
+          </p>
+          <p>
+            CNAME (canonical name record) - specifies a domain name that 
+            has to be queried in order to resolve the original DNS query. 
+            Therefore CNAME records are used for creating aliases of 
+            domain names. CNAME records are truly useful when we want 
+            to alias our domain to an external domain. In other cases we can 
+            remove CNAME records and replace them with A records and 
+            even decrease performance overhead
+          </p>
+          <p>
+            HINFO (Host Information records) - used to acquire general 
+            information about a host. The record specifies type of CPU and 
+            OS. The HINFO record data provides the possibility to use 
+            operating system specific protocols when two hosts want to 
+            communicate. For security reasons the HINFO records are not 
+            typically used on public servers
+          </p>
+          <p>
+            ISDN (Integrated Services Digital Network records) - specifies 
+            ISDN address for a host. An ISDN address is a telephone number 
+            that consists of a country code, a national destination code, a 
+            ISDN Subscriber number and, optionally, a ISDN subaddress. The 
+            function of the record is only variation of the A resource record 
+            function
+          </p>
+          <p>
+            MX (Mail exchanger record) - specifies a mail exchange server 
+            for a DNS domain name. The information is used by Simple Mail 
+            Transfer Protocol (SMTP) to route emails to proper hosts. 
+            Typically, there are more than one mail exchange server for a 
+            DNS domain and each of them have set priority
+          </p>
+          <p>
+            NS (name server) - specifies an authoritative name server for given host
+          </p>
+          <p>
+            PTR (Reverse-lookup Pointer records) - As opposed to forward 
+            DNS resolution (A and AAAA DNS records), the PTR record is 
+            used to look up domain names based on an IP address
+          </p>
+        </fieldset>
+        <fieldset>
+          <h3 id="googles-ip">Identifying google's IP</h3>
+          <p>To identify google.com IP, folow the next steps:</p>
+          <ul>
+            <li>open Terminal</li>
+            <li>paste and run the command nslookup google.com</li>
+          </ul>
+          <p>
+            As result, you will receive "name" and "address":<br>
+            Name: google.com.ua<br>
+            Address: 216.58.215.99<br>
+            Repeat steps 1 and 2 to identify google.com.ua IP
+          </p>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
