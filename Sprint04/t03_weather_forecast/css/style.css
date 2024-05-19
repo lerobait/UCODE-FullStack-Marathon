@@ -1,0 +1,233 @@
+@import url('https://fonts.cdnfonts.com/css/spartan');
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #C7C7C7;
+  font-family: 'Spartan', sans-serif;
+  margin: 0;
+}
+
+.main-container {
+  display: flex;
+}
+
+.weather-container {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  height: 600px;
+  background-color: #fff;
+  border-radius: 30px 0px 0px 30px;
+}
+
+.weather-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.weather-header span {
+  font-weight: bold;
+  margin: 20px;
+}
+
+.weather-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.weather-info span {
+  font-size: 200px;
+  color: #696969;
+}
+
+.weather-add-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  margin-bottom: 40px;
+  margin-left: -30px;
+}
+
+.wind-speed,
+.humidity {
+  display: flex;
+  flex-direction: row;
+}
+
+.wind-speed img,
+.humidity img {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+
+.wind-speed span,
+.humidity span {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.weather-status {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.weather-status span {
+  font-size: 50px;
+}
+
+.weather-cards {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  height: 30%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 80px;
+  margin: 10px 10px 10px 10px;
+}
+
+.card:hover {
+  border: 2px solid #696969;
+  border-radius: 20px;
+}
+
+.day {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.celsium {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.status {
+  font-size: 15px;
+  opacity: 0.5;
+}
+
+.detailed-container {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 600px;
+  background-color: #F4F4F4;
+  border-radius: 0px 30px 30px 0px;
+}
+
+.greetings {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.greetings span {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.time {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+
+.time span {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.detailed-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.detailed-info span {
+  font-size: 40px;
+  color: #696969;
+}
+
+.detailed-info-stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  margin-bottom: 5px;
+}
+
+.wind-speed-stat img,
+.humidity-stat img {
+  width: 10px;
+  height: 10px;
+  margin-left: 5px;
+}
+
+.wind-speed-stat span,
+.humidity-stat span {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.feels-like {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.feels-like span {
+  font-size: 14px;
+}
+
+.detailed-status {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.detailed-status span {
+  font-size: 20px;
+}
+
+.hourly-forecast {
+  display: flex;
+  justify-content: center;
+}
+
+.hourly-forecast span {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.detailed-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 50%;
+}
+
+.hour-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 80px;
+  border: 2px solid #696969;
+  border-radius: 20px;
+  margin: 10px 10px 10px 10px;
+}

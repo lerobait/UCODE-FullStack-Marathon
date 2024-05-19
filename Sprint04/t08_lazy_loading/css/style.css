@@ -1,0 +1,21 @@
+h1 {
+  text-align: center;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  margin-left: calc(50% - 100px);
+}
+
+img {
+  margin-bottom: 50px;
+}
+
+#info {
+  position: fixed;
+  top: 5px;
+  right: 5px;
+  padding: 5px 15px 5px 15px;
+  border-radius: 99px;
+}

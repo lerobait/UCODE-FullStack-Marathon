@@ -1,0 +1,93 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  background-color: #e6e6e6;
+  height: 500px;
+  margin-right: 3px;
+}
+
+.left-section button {
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 15px 15px 15px;
+  margin: 10px 10px 10px 10px;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+.left-section button:hover {
+  opacity: 0.7;
+}
+
+.right-section {
+  display: flex;
+  background-color: #e6e6e6;
+  height: 500px;
+}
+
+.film {
+  display: flex;
+  flex-direction: row;
+}
+
+.film-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.title h1 {
+  margin-bottom: 2px;
+}
+
+.actors {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.actors span {
+  color: white;
+  background-color: black;
+  border-radius: 15px;
+  padding: 10px 10px 10px 10px;
+  margin-right: 10px;
+}
+
+.info {
+  display: flex;
+  width: 500px;
+  margin-left: 20px;
+}
+
+.film-image {
+  display: flex;
+  height: 400px;
+  margin: 20px 20px 0px 20px;
+}
+
+.film-image img {
+  height: 400px;
+}

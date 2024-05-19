@@ -1,0 +1,54 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.stone {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  transform: rotate(45deg);
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+
+.stone[value="off"] { border: 3px dashed black; }
+
+#yellow {
+  left: 40%;
+  top: 10%;
+  background-color: #d7c451;
+}
+
+#green {
+  float: left;
+  left: 36%;
+  top: 25%;
+  background-color: #45d765;
+}
+
+#purple {
+  left: 50%;
+  top: 23%;
+  background-color: #a64dd7;
+}
+
+#blue {
+  left: 42%;
+  top: 33%;
+  background-color: #0685d7;
+}
+
+#red {
+  float: left;
+  left: 53%;
+  top: 37%;
+  background-color: #d63a54;
+}
+
+#pink {
+  left: 40%;
+  top: 50%;
+  background-color: #d7577c;
+}

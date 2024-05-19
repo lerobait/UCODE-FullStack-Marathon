@@ -1,0 +1,80 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Spartan', sans-serif;
+  margin: 0;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.header :first-child {
+  width: 150px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  background-color: #65cecb;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.header :last-child {
+  width: 150px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.text-input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.text-input-container span {
+  margin: 20px 0px 10px 30px;
+}
+
+.text-input-container textarea {
+  border: 2px solid #65cecb;
+  border-radius: 5px;
+  margin: 0px 30px 20px 30px;
+}
+
+.output-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.output-container span {
+  margin: 20px 0px 10px 30px;
+}
+
+.output-container p {
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 10px 0 10px 5px;
+  margin: 0px 30px 20px 30px;
+}
