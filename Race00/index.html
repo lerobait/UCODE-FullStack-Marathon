@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Calculator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="r00. Calculator" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://unpkg.com/mathjs/lib/browser/math.js"></script>
+  <script src="js/script.js"></script>
+</head>
+
+<body>
+  <div class="main-container">
+    <div class="display">
+      <span id="last-expression"></span>
+      <span id="current-expression">0</span>
+    </div>
+    <div class="input-panel">
+      <div class="extra-functions">
+        <div class="extra-buttons-row">
+          <button id="memory-recall">MR</button>
+          <button id="memory-clear">MC</button>
+          <button id="memory-plus">M+</button>
+          <button id="memory-minus">M-</button>
+          <button id="dropdown">&#129055;</button>
+        </div>
+      </div>
+      <div class="extra-functions-dropdown" id="extra-functions-dropdown">
+        <div class="extra-buttons-row-dropdown">
+          <button id="square-root">√</button>
+          <button id="exponentiation">^</button>
+          <button id="factorial">!</button>
+          <button id="pi">π</button>
+        </div>
+        <div class="extra-buttons-row-dropdown">
+          <button id="millimeter">mm</button>
+          <button id="centimeter">cm</button>
+          <button id="meter">m</button>
+          <button id="kilometer">km</button>
+        </div>
+        <div class="extra-buttons-row-dropdown">
+          <button id="milligram">mg</button>
+          <button id="gram">gm</button>
+          <button id="kilogram">kg</button>
+          <button id="ton">tn</button>
+        </div>
+      </div>
+      <div class="main-functions">
+        <div class="buttons-row">
+          <button class="clear-button" id="all-clear">AC</button>
+          <button class="operator" id="brackets">()</button>
+          <button class="operator" id="precent">%</button>
+          <button class="operator" id="division">÷</button>
+        </div>
+        <div class="buttons-row">
+          <button class="number">7</button>
+          <button class="number">8</button>
+          <button class="number">9</button>
+          <button class="operator" id="multiplication">×</button>
+        </div>
+        <div class="buttons-row">
+          <button class="number">4</button>
+          <button class="number">5</button>
+          <button class="number">6</button>
+          <button class="operator" id="subtraction">-</button>
+        </div>
+        <div class="buttons-row">
+          <button class="number">1</button>
+          <button class="number">2</button>
+          <button class="number">3</button>
+          <button class="operator" id="addition">+</button>
+        </div>
+        <div class="buttons-row">
+          <button class="number">0</button>
+          <button class="number" id="decimal-point">.</button>
+          <button class="delete-button" id="delete">&#9003;</button>
+          <button class="equals-button" id="equals">=</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

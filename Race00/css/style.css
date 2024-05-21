@@ -1,0 +1,190 @@
+@import url('https://fonts.cdnfonts.com/css/spartan');
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #C7C7C7;
+  font-family: 'Spartan', sans-serif;
+  margin: 0;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  width: 400px;
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #252f21;
+  overflow: hidden;
+}
+
+.display :first-child {
+  color: #e0e7dc;
+  font-size: 35px;
+  margin-bottom: 10px;
+  margin-right: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100%;
+}
+
+.display :last-child {
+  color: #e0e7dc;
+  font-size: 50px;
+  font-weight: bold;
+  margin-right: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100%;
+}
+
+.input-panel {
+  display: flex;
+  flex-direction: column;
+  background-color: #12140e;
+}
+
+.extra-buttons-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.extra-buttons-row button {
+  width: 50px;
+  height: 30px;
+  border: none;
+  border-radius: 20px;
+  background-color: transparent;
+  color: #e0e7dc;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s ease;
+  margin: 10px 10px 10px 10px;
+}
+
+.extra-buttons-row button:hover {
+  background-color: #393b36;
+}
+
+.extra-buttons-row :last-child {
+  width: 30px;
+  height: 30px;
+  font-size: 10px;
+  background-color: #1b1f17;
+  border-radius: 100%;
+  margin-left: 0px;
+}
+
+.extra-buttons-row :last-child:hover {
+  border-radius: 10px;
+}
+
+.extra-functions-dropdown {
+  display: none;
+  flex-direction: column;
+}
+
+.extra-buttons-row-dropdown {
+  display: flex;
+  justify-content: start;
+}
+
+.extra-buttons-row-dropdown button {
+  width: 50px;
+  height: 30px;
+  border: none;
+  border-radius: 20px;
+  background-color: transparent;
+  color: #e0e7dc;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s ease;
+  margin: 10px 30px 10px 10px;
+}
+
+.extra-buttons-row-dropdown button:hover {
+  background-color: #393b36;
+}
+
+.main-functions {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.buttons-row button {
+  width: 80px;
+  height: 80px;
+  font-size: 30px;
+  border: none;
+  border-radius: 100%;
+  margin: 0px 10px 10px 10px;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+.buttons-row button:hover {
+  border-radius: 10px;
+}
+
+.clear-button {
+  background-color: #1e4e50;
+  color: #b0dbe0;
+}
+
+.clear-button:hover {
+  background-color: #436a6e;
+}
+
+.operator {
+  background-color: #3b4c38;
+  color: #cddec9;
+}
+
+.operator:hover {
+  background-color: #5e6959;
+}
+
+#divide {
+  font-size: 40px;
+}
+
+.number,
+.delete-button {
+  background-color: #1a1d16;
+  color: #bcbfb8;
+}
+
+.number:hover,
+.delete-button:hover {
+  background-color: #3e433d;
+}
+
+.equals-button {
+  background-color: #304f26;
+  color: #caefbb;
+}
+
+.equals-button:hover {
+  background-color: #526b4b;
+}
