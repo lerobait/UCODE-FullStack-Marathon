@@ -1,0 +1,26 @@
+fieldset {
+  width: 900px;
+}
+
+#data-field {
+  background-color: #c0c0c0;
+  margin-bottom: 20px;
+  width: 930px;
+}
+
+#photo::file-selector-button{
+  background: white;
+  border-radius: 5px;
+  border-width: 1px;
+  cursor: pointer;
+}
+
+#clear,
+#send {
+  background: white;
+  border-radius: 5px;
+  border-width: 1px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
