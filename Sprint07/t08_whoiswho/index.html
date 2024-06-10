@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>WhoIsWho</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="t08. WhoIsWho">
+  <style>
+    .bordered-table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    .bordered-table th,
+    .bordered-table td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    .bordered-table th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Parsing CSV data</h1>
+  <form id="user-form" action="/upload" method="POST" enctype="multipart/form-data">
+    <P>
+      Upload file:
+      <input type="file" name="user-file" accept=".csv">
+      <button type="submit">Upload</button>
+    </P>
+    <p id="filter-box">
+      Filter:
+      <input type="text" id="filter-input" placeholder="Filter by column">
+      <button id="filter-button">APPLY</button>
+    </p>
+    <div id="table-box"></div>
+  </form>
+  <script src="index.js"></script>
+</body>
+
+</html>

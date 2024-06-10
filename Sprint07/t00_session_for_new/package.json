@@ -1,0 +1,12 @@
+{
+  "name": "t00_session_for_new",
+  "version": "1.0.0",
+  "description": "Sprint07",
+  "main": "index.js",
+  "author": "Artem Nikulin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-session": "^1.18.0"
+  }
+}

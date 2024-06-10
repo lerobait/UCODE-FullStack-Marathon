@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Charset</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name=descripion content="t02. Charset">
+</head>
+
+<body>
+  <h1>Charset</h1>
+  <form>
+    <p>
+      Change charset:
+      <input type="text" id="inputString" name="inputString" 
+            placeholder="Input string"
+      >
+    </p>
+    <p>
+      Select charset or several charsets:
+      <select multiple id="selectCharset" name="selectCharset">
+        <option value="utf">UTF-8</option>
+        <option value="iso-8859-1">ISO-8859-1</option>
+        <option value="cp1252">Windows-1252</option>
+      </select>
+      <button>Change charset</button>
+      <button type="reset">Clear</button>
+    </p>
+    <p id="hidden" style="display: none">
+      Input string:
+      <textarea id="userInput" name="userInput"></textarea>
+    </p>
+    <p id="hidden" style="display: none">
+      UTF-8
+      <textarea id="utf-8" name="utf-8"></textarea>
+    </p>
+    <p id="hidden" style="display: none">
+      ISO-8859-1
+      <textarea id="iso" name="iso"></textarea>
+    </p>
+    <p id="hidden" style="display: none">
+      Windows-1252
+      <textarea id="windows" name="windows"></textarea>
+    </p>
+  </form>
+  <script src="index.js"></script>
+</body>
+
+</html>

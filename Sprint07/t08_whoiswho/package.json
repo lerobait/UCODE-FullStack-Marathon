@@ -1,0 +1,13 @@
+{
+  "name": "t08_whoiswho",
+  "version": "1.0.0",
+  "description": "Sprint07",
+  "main": "server.js",
+  "author": "Artem Nikulin",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "express": "^4.19.2",
+    "formidable": "^3.5.1"
+  }
+}

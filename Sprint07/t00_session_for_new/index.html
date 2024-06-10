@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Session for new</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="t00. Session for new">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <h1>Session for new</h1>
+  <form id="app" method="POST" action="/">
+    <fieldset id="main-field">
+      <fieldset id="about-hero">
+        <legend>About HERO</legend>
+        <p>
+          <label for="real-name">Real Name</label>
+          <input type="text" id="real-name" name="real-name" placeholder="Tell real name" required>
+          <label for="current-alias">Current alias</label>
+          <input type="text" id="current-alias" name="current-alias" placeholder="Tell hero alias" required>
+          <label for="age">Age</label>
+          <input type="number" id=age name="age" required>
+        </p>
+        <p>
+          <label for="about">About</label>
+          <textarea id="about" name="about" cols="70" rows="5" maxlength="500" 
+            placeholder="Tell about yourself, max 500 symbols" required
+          ></textarea>
+        </p>
+        <p>
+          <label for="photo">Photo:</label>
+          <input type="file" id="photo" name="photo">
+        </p>
+      </fieldset>
+      <fieldset id="powers">
+        <legend>Powers</legend>
+        <p>
+          <input type="checkbox" id="strength" name="strength">
+          <label for="strength">Strength</label>
+          <input type="checkbox" id="speed" name="speed">
+          <label for="speed">Speed</label>
+          <input type="checkbox" id="intelligance" name="intelligance">
+          <label for="intelligance">Intelligance</label>
+          <input type="checkbox" id="teleportation" name="teleportation">
+          <label for="teleportation">Teleportation</label>
+          <input type="checkbox" id="immortal" name="immortal">
+          <label for="immortal">Immortal</label>
+          <input type="checkbox" id="another" name="another">
+          <label for="another">Another</label>
+        </p>
+        <p>
+          <label for="level-of-control">Level of control:</label>
+          <input type="range" id="level-of-control" name="level-of-control" 
+                  step="1" value="0" min="0" max="10"
+          >
+        </p>
+      </fieldset>
+      <fieldset id="publicity">
+        <legend>Publicity</legend>
+        <p>
+          <input type="radio" id="unknown" name="unknown" >
+          <label for="unknown">UNKNOWN</label>
+          <input type="radio" id="like-a-ghost" name="like-a-ghost" >
+          <label for="like-a-ghost">LIKE A GHOST</label>
+          <input type="radio" id="i-am-in-comics" name="i-am-in-comics" >
+          <label for="i-am-in-comics">I AM IN COMICS</label>
+          <input type="radio" id="i-have-fun-club" name="i-have-fun-club" >
+          <label for="i-have-fun-club">I HAVE FUN CLUB</label>
+          <input type="radio" id="superstar" name="superstar" >
+          <label for="superstar">SUPERSTAR</label>
+        </p>
+      </fieldset>
+      <input type="button" id="clear" name="clear" value="CLEAR">
+      <input type="submit" id="send" name="send" value="SEND">
+    </fieldset>
+  </form>
+</body>
+
+</html>

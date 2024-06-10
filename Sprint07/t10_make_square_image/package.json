@@ -1,0 +1,14 @@
+{
+  "name": "t08_notepad_mini",
+  "version": "1.0.0",
+  "description": "Sprint07",
+  "main": "server.js",
+  "author": "Artem Nikulin",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "request": "^2.88.2",
+    "sharp": "^0.33.4"
+  }
+}

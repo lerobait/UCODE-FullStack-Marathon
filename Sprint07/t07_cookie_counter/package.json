@@ -1,0 +1,12 @@
+{
+  "name": "t07_cookie_counter",
+  "version": "1.0.0",
+  "description": "Sprint07",
+  "main": "server.js",
+  "author": "Artem Nikulin",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.19.2"
+  }
+}

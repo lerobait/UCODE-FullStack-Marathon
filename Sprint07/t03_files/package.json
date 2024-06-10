@@ -1,0 +1,11 @@
+{
+  "name": "t03_files",
+  "version": "1.0.0",
+  "description": "Sprint07",
+  "main": "server.js",
+  "author": "Artem Nikulin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
