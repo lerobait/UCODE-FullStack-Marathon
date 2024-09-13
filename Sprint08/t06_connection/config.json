@@ -1,0 +1,9 @@
+{
+  "database": {
+    "host": "localhost",
+    "user": "root",
+    "password": "securepass",
+    "database": "ucode_web",
+    "connectionLimit": 10
+  }
+}
