@@ -1,0 +1,17 @@
+{
+  "name": "sprint09",
+  "version": "1.0.0",
+  "description": "MVC Sprint09 project",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Artem Nikulin",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.21.0",
+    "mysql2": "^3.11.2",
+    "nodemon": "^3.1.4"
+  }
+}

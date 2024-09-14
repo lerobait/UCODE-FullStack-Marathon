@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="login form">
+        <header>Login</header>
+        <form id="loginForm">
+          <input
+            type="text"
+            name="username"
+            placeholder="Enter your login"
+            required
+          />
+          <input
+            type="password"
+            name="password"
+            placeholder="Enter your password"
+            required
+          />
+          <a id="forgotPasswordLink" href="#">Forgot password?</a>
+          <input type="submit" class="button" value="Login" />
+        </form>
+        <div id="message" style="text-align: center"></div>
+      </div>
+    </div>
+    <script src="/js/model.js"></script>
+  </body>
+</html>

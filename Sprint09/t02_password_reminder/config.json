@@ -1,0 +1,9 @@
+{
+  "database": {
+    "host": "localhost",
+    "user": "root",
+    "password": "0526",
+    "database": "sword",
+    "connectionLimit": 10
+  }
+}
